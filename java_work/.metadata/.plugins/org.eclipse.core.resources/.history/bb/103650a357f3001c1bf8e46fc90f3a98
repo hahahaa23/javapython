@@ -1,0 +1,21 @@
+package ex0624;
+
+public class BB {
+
+	public static void main(String[] args) {
+		
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("입력하세요");
+	String aa = scan.next line();
+	System.out.println("aa="+ aa);
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+}

@@ -18,9 +18,8 @@ public class MAB {
 		a1.with(1000);
 		a2.with(1000);
 		a3.with(1000);
-		\
 		
-		
+
 		a1.check();
 		a2.check();
 		a3.check();

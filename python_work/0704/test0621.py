@@ -1,7 +1,5 @@
 str = "The Espresso Spirit"
 
-str = str.upper()
-print(str)
-
-str = str.lower()
+print(str.upper())
+print(str.lower())
 print(str)

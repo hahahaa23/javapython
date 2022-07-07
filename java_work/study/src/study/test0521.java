@@ -12,6 +12,10 @@ public class test0521 {
 			System.out.println("큰 수: "+num2);
 		}
 		
-		if()
+		if(num1>num2) {
+			System.out.println("절댓값: "+(num1-num2));
+		}else {
+			System.out.println("절댓값: "+(num2-num1));
+		}
 	}
 }

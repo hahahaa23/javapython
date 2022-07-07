@@ -10,10 +10,12 @@ package ex0705;
 public class test0711 {
 
 	public static void main(String[] args) {
-		Triangle a1 = new Triangle(2,3);
-		a1.base=2; //=있는 수식은 괄호 안씀. 함수가 괄호 씀 ㅇㅇ
+		Triangle a1 = new Triangle();
+		a1.base=2; // = 있는 수식은 괄호 안씀. 함수가 괄호 씀 ㅇㅇ
 		a1.height=3;
 		a1.printTriangle();
 		
+		Triangle a2 = new Triangle(7,8);
+		a2.printTriangle();
 	}
 }

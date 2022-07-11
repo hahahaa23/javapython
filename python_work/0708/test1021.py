@@ -12,5 +12,5 @@ st = [1,2,3,4,5]
 
 def add1(s):
     for i in range(s):
-        s[i] += 1
+        s[i] = s[i+1]
 print(st)

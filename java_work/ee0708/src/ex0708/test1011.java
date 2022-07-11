@@ -1,29 +1,13 @@
 package ex0708;
 
-class Accumulator{
-	public int i;
-	
-	Accumulator.showResult():
-		public Accumulator(int i) {
-		this.i = i;
-		System.out.println("");
-		
-		
-	Accumulator.add(i):
-		if i < 10{
-			i = i + i++
-		}
-	
-	}
+public class test1011 {
 	
 	public static void main(String[] args) {
+		System.out.println(Accumulator.MAX);
+		Accumulator acc = new Accumulator();
 		for(int i = 0; i < 10; i++)
-			Accumulator.add(i);
-		Accumulator.showResult();
+			acc.add(i);
+		acc.showResult();
 	}
 	
-public class test1011 {
-
-
-	}
 }

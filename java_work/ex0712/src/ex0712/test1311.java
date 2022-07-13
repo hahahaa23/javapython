@@ -2,30 +2,38 @@ package ex0712;
 
 public class test1311 {
 
-	public static void main(String[] args) {
-		int arr[] = {1,2,3,4,5};
-		int minValue = arr[0];
-		int max = arr[0];
+	public static int[] ary = {5,10,20,6,9,33};
+
 		
-		public static void minValue(int[] arr)
-		for(int i=0; i<arr.length; i++) {
-			if(min<arr[i])
-				min = arr[i];
-			System.out.println("최솟값 = "+min);
-		
-		public static void maxValue(int[] arr)
-		for(int e : arr) {
-			
-			System.out.println();
+	public static int minValue(int[] arr) {
+		int min = ary[0];
+		for(int i = 0; i < ary.length; i++) {
+			if(min > ary[0]) {
+				min = ary[i];
+			}	
+		}	
+		return min;	
 		}
 		
-			
-			if(max>arr[i]) {
-				max = arr[i];
-				System.out.println("최댓값 = "+max);
+	public static int maxValue(int[] arr) {
+		int max = ary[0];
+		for(int temp : ary) {
+			if (max < temp) {
+				max = temp;
 			}
 		}
+		return max;
+	}
+	public static void main(String[] args) {
+		int min = minValue(ary);
+		int max = maxValue(ary);
+			
+		System.out.println("최솟값 = "+min);
+		System.out.println("최댓값 = "+max);
+	}
+
+		
 		
 		
 	}
-}
+

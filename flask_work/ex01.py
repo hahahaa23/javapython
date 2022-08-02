@@ -64,12 +64,12 @@ print('걸린시간 = ',end_time-start_time)
 pred = knclf.predict(x_data[0].reshape(-1,25))
 print(pred)
 
-for i in range(6):
-    plt.title(f'target = {y_data[i]}')
-    plt.imshow(x_data[i].reshape(5,5),cmap='gray_r')
-    plt.savefig(f'x_data[{i}]_plt.png')
-    # plt.show()
-    plt.close()
+# for i in range(6):
+#     plt.title(f'target = {y_data[i]}')
+#     plt.imshow(x_data[i].reshape(5,5),cmap='gray_r')
+#     plt.savefig(f'x_data[{i}]_plt.png')
+#     # plt.show()
+#     plt.close()
 
 # for i in range(6):
 #     cv2.imwrite(f'x_data[{i}]_cv.png',x_data[i].reshape(5,5))

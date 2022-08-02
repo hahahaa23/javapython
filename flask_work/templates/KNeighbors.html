@@ -47,11 +47,14 @@
                         knclf = KNeighborsClassifier(n_neighbors=1)
                         knclf.fit(x_data,y_data)
                     </p>
+                    <h3>{{pred}}</h3>
                     <div>
-                        <form>
+                        <form method="post" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="predtarget" class="form-label">예측할 데이터</label>
-                                <input type="file" class="form-control" id="predtarget" name="predtarget"
+                                <input type="file" class="form-control" 
+                                        id="predtarget" 
+                                        name="filename"
                                     aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">
                                     5x5이미지를 업로드 하시면 o,x를 예측해드립니다.

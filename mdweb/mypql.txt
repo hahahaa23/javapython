@@ -1,0 +1,22 @@
+#스키마 만들기
+
+#테이블 만들기
+CREATE TABLE `test`.`fish` (
+  `inx` INT NOT NULL AUTO_INCREMENT,
+  `weight` DECIMAL(22,3) NULL,
+  `height` DECIMAL(22,3) NULL,
+  `length` DECIMAL(22,3) NULL,
+  PRIMARY KEY (`inx`));
+
+#테이블에 행 넣기
+INSERT INTO `test`.`fish`
+(`index`,`weight`,`height`,`length`,species)
+VALUES
+('2','22.2','30.0','500','Whitefish');
+
+#테이블에 행 넣기
+
+#테이블 컬럼 추가하기
+
+#테이블 행 수정하기
+
